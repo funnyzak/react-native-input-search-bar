@@ -9,3 +9,5 @@ yarn-error.log
 .eslintcache
 
 dist/
+
+yarn.lock
