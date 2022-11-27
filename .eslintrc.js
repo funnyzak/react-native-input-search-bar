@@ -90,12 +90,6 @@ module.exports = {
             enforceForRenamedProperties: false
           }
         ],
-        'prettier/prettier': [
-          'error',
-          {
-            endOfLine: 'auto'
-          }
-        ],
         'eslint-comments/no-unused-disable': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
         'react-native/no-unused-styles': 2,

@@ -12,7 +12,7 @@ import {
   ViewStyle
 } from 'react-native'
 import { ClearIcon, SearchIcon } from './icons'
-import { SearchBarProps } from './type'
+import { SearchBarProps } from './types'
 import { logInfo } from './utils/logger'
 
 const THEME_SETTING = {

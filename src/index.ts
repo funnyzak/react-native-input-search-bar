@@ -1,3 +1,3 @@
 export { default as ReactNativeSearchBar } from './SearchBar'
 
-export type { SearchBarProps } from './type'
+export type { SearchBarProps } from './types'
