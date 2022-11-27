@@ -16,6 +16,7 @@
     "lint:check": "yarn style:check && yarn eslint:check",
     "lint:fix": "yarn style:fix && yarn eslint:fix",
     "compile": "tsc --project tsconfig.json",
+    "test": "echo \"hello\"",
     "release": "np"
   },
   "repository": {
