@@ -1,12 +1,12 @@
 # React-Native-Search-Bar
 
-## Contribution
+A simple search bar component for React Native.
 
-If you have any questions or suggestions, please feel free to open an issue or pull request.
+## Installation
 
-<a href="https://github.com/funnyzak/react-native-search-bar/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=funnyzak/react-native-search-bar" />
-</a>
+* 1.Run `npm i @funnyzak/react-native-search-bar --save`
+  * or  `yarn add @funnyzak/react-native-search-bar`
+* 2.`import SearchBar from '@funnyzak/react-native-search-bar'`
 
 ## License
 
