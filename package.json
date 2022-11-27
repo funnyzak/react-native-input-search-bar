@@ -1,0 +1,74 @@
+{
+  "name": "react-native-search-bar",
+  "version": "0.0.1",
+  "description": "React Native Search Bar.",
+  "main": "dist/index.js",
+  "private": false,
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "eslint:check": "eslint --max-warnings 100 . --ext .js,.jsx,.ts,.tsx",
+    "eslint:fix": "eslint --max-warnings 100 . --ext .js,.jsx,.ts,.tsx  --fix",
+    "style:check": "prettier --check '**/*.{ts,js,jsx,tsx}'",
+    "style:fix": "prettier --write '**/*.{ts,js,jsx,tsx}'",
+    "lint:check": "yarn style:check && yarn eslint:check",
+    "lint:fix": "yarn style:fix && yarn eslint:fix",
+    "compile": "tsc --declaration ./src/ --outDir ./dist",
+    "clean": "npx rimraf node_modules",
+    "clean:cache": "npx rimraf node_modules/.cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:funnyzak/react-native-search-bar.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-search-bar"
+  ],
+  "author": "Leon <silenceace@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funnyzak/react-native-search-bar/issues"
+  },
+  "homepage": "https://github.com/funnyzak/react-native-search-bar",
+  "dependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "13.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.20.2",
+    "@babel/runtime": "7.20.1",
+    "@types/react": "^18",
+    "@types/react-native": "0.70.6",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.42.1",
+    "@vercel/ncc": "0.34.0",
+    "babel": "6.23.0",
+    "babel-cli": "6.26.0",
+    "eslint": "8.27.0",
+    "eslint-config-prettier": "8.5.0",
+    "prettier": "2.7.1",
+    "rimraf": "3.0.2",
+    "typescript": "4.8.4"
+  },
+  "babel": {
+    "plugins": [
+      [
+        {
+          "root": [
+            "./src"
+          ],
+          "extensions": [
+            ".js",
+            ".ts",
+            ".tsx",
+            ".json"
+          ]
+        }
+      ]
+    ]
+  }
+}
