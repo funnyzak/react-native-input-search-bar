@@ -1,5 +1,5 @@
 {
-  "name": "react-native-input-search",
+  "name": "react-native-input-search-bar",
   "version": "0.0.1",
   "description": "A simple search bar component for React Native.",
   "main": "dist/index.js",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:funnyzak/react-native-search-bar.git"
+    "url": "git@github.com:funnyzak/react-native-input-search-bar.git"
   },
   "keywords": [
     "react",
@@ -31,9 +31,9 @@
   "author": "Leon <silenceace@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/funnyzak/react-native-search-bar/issues"
+    "url": "https://github.com/funnyzak/react-native-input-search-bar/issues"
   },
-  "homepage": "https://github.com/funnyzak/react-native-search-bar",
+  "homepage": "https://github.com/funnyzak/react-native-input-search-bar",
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
