@@ -71,6 +71,8 @@ jobs:
         run: npm install
       - name: Code test
         run: npm run test
+      - name: Build
+        run: npm run compile
       - name: Get the version
         id: get_version
         run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
