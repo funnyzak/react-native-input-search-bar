@@ -1,5 +1,5 @@
 {
-  "name": "@funnyzak/react-native-search-bar",
+  "name": "react-native-input-search",
   "version": "0.0.1",
   "description": "A simple search bar component for React Native.",
   "main": "dist/index.js",
