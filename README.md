@@ -25,6 +25,26 @@ A simple search bar component for React Native.
 [rle-image]: https://img.shields.io/github/release-date/funnyzak/react-native-input-search-bar.svg
 [rle-url]: https://github.com/funnyzak/react-native-input-search-bar/releases/latest
 
+## TOC
+
+- [React-Native-Input-Search-Bar](#react-native-input-search-bar)
+  - [TOC](#toc)
+  - [Preview](#preview)
+  - [Installation](#installation)
+  - [Getting Started](#getting-started)
+    - [Basic usage](#basic-usage)
+  - [Props](#props)
+    - [Props for ReactNativeInputSearchBar](#props-for-reactnativeinputsearchbar)
+    - [TypeDefine for ReactNativeInputSearchBar](#typedefine-for-reactnativeinputsearchbar)
+  - [Reference](#reference)
+  - [Contribution](#contribution)
+  - [License](#license)
+
+
+## Preview
+
+[![preview](https://raw.githubusercontent.com/funnyzak/react-native-input-search-bar/main/.github/docs/images/preview.png)](https://github.com/funnyzak/react-native-input-search-bar)
+
 ## Installation
 
 [![NPM](https://nodei.co/npm/react-native-input-search-bar.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-input-search-bar/)
@@ -99,7 +119,6 @@ const SearchBar = () => {
 
 export default SearchBar
 ```
-
 ## Props
 
 ### Props for ReactNativeInputSearchBar
