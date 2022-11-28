@@ -27,7 +27,7 @@ A simple search bar component for React Native.
 
 ## Installation
 
-<!-- [![NPM](https://nodei.co/npm/react-native-input-search-bar.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-input-search-bar/) -->
+[![NPM](https://nodei.co/npm/react-native-input-search-bar.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-input-search-bar/)
 
 - 1.Run `npm i react-native-input-search-bar --save`
   - or `yarn add react-native-input-search-bar`
