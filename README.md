@@ -1,4 +1,4 @@
-# React-Native-Search-Bar
+# React-Native-Input-Search-Bar
 
 A simple search bar component for React Native.
 
