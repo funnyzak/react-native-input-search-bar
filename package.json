@@ -1,6 +1,6 @@
 {
   "name": "react-native-input-search-bar",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple search bar component for React Native.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
