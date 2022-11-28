@@ -4,9 +4,9 @@ A simple search bar component for React Native.
 
 ## Installation
 
-* 1.Run `npm i @funnyzak/react-native-search-bar --save`
-  * or  `yarn add @funnyzak/react-native-search-bar`
-* 2.`import SearchBar from '@funnyzak/react-native-search-bar'`
+* 1.Run `npm i react-native-input-search-bar --save`
+  * or  `yarn add react-native-input-search-bar`
+* 2.`import SearchBar from 'react-native-input-search-bar'`
 
 ## License
 
