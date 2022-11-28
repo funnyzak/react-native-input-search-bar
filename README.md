@@ -29,9 +29,12 @@ A simple search bar component for React Native.
 
 [![NPM](https://nodei.co/npm/react-native-input-search-bar.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-input-search-bar/)
 
-- 1.Run `npm i react-native-input-search-bar --save`
-  - or `yarn add react-native-input-search-bar`
+- 1.Run `npm i react-native-svg react-native-input-search-bar --save`
+  - or `yarn add react-native-svg react-native-input-search-bar`
 - 2.`import ReactNativeInputSearchBar from 'react-native-input-search-bar'`
+- 3. Run `npx pod-install` if you are using iOS, and `react-native link` if you are using Android. (this step is for `react-native-svg`)
+
+**Notes:** You need to install `react-native-svg` first, because this component depends on it to render the search icon.
 
 ## Getting Started
 
@@ -61,11 +64,11 @@ Inside your component's render method, use ReactNativeInputSearchBar:
 
 ```javascript
 import ReactNativeInputSearchBar from 'react-native-input-search-bar'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const SearchBar = () => {
-  const [query, setQuery] = useState < string > defQuery
-  const [activeSearch, setActiveSearch] = useState < boolean > false
+  const [query, setQuery] = useState<string>('')
+  const [activeSearch, setActiveSearch] = useState<boolean>(false)
 
   const onSubmitSearch = (val: string) => {
     setQuery(val)
@@ -82,7 +85,7 @@ const SearchBar = () => {
       buttonTextStyle={{}}
       searchToolContainerStyle={{ height: 40 }}
       inputContainerStyle={{
-        backgroundColor: theme.colors.white,
+        backgroundColor: '#ffffff',
         borderWidth: 0.3,
         borderRadius: 20
       }}

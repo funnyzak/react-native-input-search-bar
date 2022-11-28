@@ -34,10 +34,11 @@
     "url": "https://github.com/funnyzak/react-native-input-search-bar/issues"
   },
   "homepage": "https://github.com/funnyzak/react-native-input-search-bar",
+  "dependencies": {},
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*",
-    "react-native-svg": "13.6.0"
+    "react-native-svg": "13.6.0",
+    "react": ">=16.8.0",
+    "react-native": ">0.60.0"
   },
   "devDependencies": {
     "@types/react": "^18",
